@@ -1,0 +1,27 @@
+<h2>Reporter output</h2><table><tr><td>INFO: The value found with Environment variable Falcon is: Falcon</td></tr>
+<tr><td>INFO: The value found with Environment Module variable handlingwindows is: handlingwindows</td></tr>
+<tr><td>The value found with Environment variable WIN_10_chrome_84 is: WIN_10_chrome_84</td></tr>
+<tr><td>INFO: Clients Found: [Falcon]
+</td></tr>
+<tr><td>INFO: Modules Selected: [handlingwindows]
+</td></tr>
+<tr><td>INFO: New Suite Created with name: Falcon-Sample-WIN_10_chrome_84</td></tr>
+<tr><td><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_10_chrome_84">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="84"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="com.atmecs.windowshandling.testscript.HandlingWindows"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_10_chrome_84 -->
+</td></tr>
+<tr><td>Opening browser: chrome</td></tr>
+<tr><td>Maximizing browser window</td></tr>
+<tr><td>Switching to footer section</td></tr>
+<tr><td>Clicking the media icons and handling windows</td></tr>
+</table>

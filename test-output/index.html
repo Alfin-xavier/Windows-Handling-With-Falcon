@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="navigator-link">
+              <span class="suite-name border-passed">Falcon-Sample-WIN_10_chrome_84</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>C:\Users\alfin.anthonyraj\Automation_Selenium\windows-handling\src\main\resources\suitefile\handlingwindows.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Falcon-Sample-WIN_10_chrome_84" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="hide-methods passed suite-Falcon-Sample-WIN_10_chrome_84"> (hide)</a> <!-- hide-methods passed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                      <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="show-methods passed suite-Falcon-Sample-WIN_10_chrome_84"> (show)</a> <!-- show-methods passed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                    </span>
+                    <div class="method-list-content passed suite-Falcon-Sample-WIN_10_chrome_84">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Falcon-Sample-WIN_10_chrome_84" title="com.atmecs.windowshandling.testscript.HandlingWindows" class="method navigator-link" hash-for-method="sampleTest(WIN, 10, chrome, 84)">sampleTest(WIN, 10, chrome, 84)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Falcon-Sample-WIN_10_chrome_84 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Falcon-Sample-WIN_10_chrome_84" class="panel Falcon-Sample-WIN_10_chrome_84">
+          <div class="suite-Falcon-Sample-WIN_10_chrome_84-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.atmecs.windowshandling.testscript.HandlingWindows</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sampleTest(WIN, 10, chrome, 84)">
+                  </a> <!-- sampleTest(WIN, 10, chrome, 84) -->
+                  <span class="method-name">sampleTest</span>
+                  <span class="parameters">(WIN, 10, chrome, 84)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Falcon-Sample-WIN_10_chrome_84-class-passed -->
+        </div> <!-- panel Falcon-Sample-WIN_10_chrome_84 -->
+        <div panel-name="test-xml-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\alfin.anthonyraj\Automation_Selenium\windows-handling\src\main\resources\suitefile\handlingwindows.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Falcon-Sample-WIN_10_chrome_84&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;WIN&quot;/&gt;
+  &lt;parameter name=&quot;osVersion&quot; value=&quot;10&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;84&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SampleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.atmecs.windowshandling.testscript.HandlingWindows&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SampleTest --&gt;
+&lt;/suite&gt; &lt;!-- Falcon-Sample-WIN_10_chrome_84 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Falcon-Sample-WIN_10_chrome_84</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SampleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Falcon-Sample-WIN_10_chrome_84</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Falcon-Sample-WIN_10_chrome_84</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Falcon-Sample-WIN_10_chrome_84');
+function tableData_Falcon-Sample-WIN_10_chrome_84() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sampleTest')
+data.setCell(0, 2, 'com.atmecs.windowshandling.testscript.HandlingWindows')
+data.setCell(0, 3, 26309);
+window.suiteTableData['Falcon-Sample-WIN_10_chrome_84']= { tableData: data, tableDiv: 'times-div-Falcon-Sample-WIN_10_chrome_84'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Falcon-Sample-WIN_10_chrome_84">
+              </div> <!-- times-div-Falcon-Sample-WIN_10_chrome_84 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Falcon-Sample-WIN_10_chrome_84</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">sampleTest(WIN, 10, chrome, 84)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Opening browser: chrome</span>
+                <span class="reporter-method-output">Maximizing browser window</span>
+                <span class="reporter-method-output">Switching to footer section</span>
+                <span class="reporter-method-output">Clicking the media icons and handling windows</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Falcon-Sample-WIN_10_chrome_84" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.atmecs.windowshandling.testscript.HandlingWindows</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">preSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sampleTest(WIN, 10, chrome, 84)</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">26390 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

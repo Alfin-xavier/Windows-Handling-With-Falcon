@@ -1,0 +1,6 @@
+2020-11-25 13:46:33,580  INFO [com.atmecs.windowshandling.runner.TestNGRunner.main()] HandlingWindows:51 - Opening browser: chrome
+2020-11-25 13:46:45,247  INFO [com.atmecs.windowshandling.runner.TestNGRunner.main()] HandlingWindows:51 - Maximizing browser window
+2020-11-25 13:46:52,380  INFO [com.atmecs.windowshandling.runner.TestNGRunner.main()] HandlingWindows:51 - Switching to footer section
+2020-11-25 13:46:54,361  INFO [com.atmecs.windowshandling.runner.TestNGRunner.main()] HandlingWindows:51 - Clicking the media icons and handling windows
+2020-11-25 13:46:59,979  INFO [com.atmecs.windowshandling.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2020-11-25 13:47:00,068 ERROR [com.atmecs.windowshandling.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
